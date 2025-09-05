@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-light: #dedddb;
+	--color-dark: #0d0e0e;
+}
+button {
+	@apply cursor-pointer;
+}
